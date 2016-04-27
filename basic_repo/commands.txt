@@ -7,4 +7,7 @@ git add .
 git commit -m "add basic repo changes"
 git push origin master
 git status
+git add .
+git commit -m "added more changes"
+git push origin master 
 
