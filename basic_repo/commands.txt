@@ -3,5 +3,8 @@ git clone https://github.com/nicolecpeoples/basic_repo
 cd basic_repo
 touch index.html
 touch styles.css
-l
+git add .
+git commit -m "add basic repo changes"
+git push origin master
+git status
 
