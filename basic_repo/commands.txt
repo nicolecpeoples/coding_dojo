@@ -1,0 +1,7 @@
+created a basic github repo on github
+git clone https://github.com/nicolecpeoples/basic_repo
+cd basic_repo
+touch index.html
+touch styles.css
+l
+
