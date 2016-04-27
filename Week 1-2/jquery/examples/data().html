@@ -1,0 +1,32 @@
+<!<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <style>
+		  div {
+		    color: blue;
+		  }
+		  span {
+		    color: red;
+		  }
+  </style>
+    </head>
+    <body>
+	  <div>
+	  The values stored were
+	  <span></span>
+	  and
+	  <span></span>
+	</div>
+	 
+	<script>
+	$( "div" ).data( "test", { first: 16, last: "pizza!" } );
+	$( "span:first" ).text( $( "div" ).data( "test" ).first );
+	$( "span:last" ).text( $( "div" ).data( "test" ).last );
+	</script>
+    </body>
+</html>

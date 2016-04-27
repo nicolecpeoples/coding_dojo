@@ -1,0 +1,37 @@
+body {
+	background: url(../images/content.jpg);
+	font-size: 16px;
+	color: #333333;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	text-transform:  uppercase;
+	text-align:  center;
+	margin: 0 0 20px;
+}
+
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+#hd {
+	background: ;
+	padding: 20px 0;
+
+}
+
+#main-content {
+	text-align: center;
+
+}	
+
+
+#main-content img {
+	display: block;
+	margin: 3px auto;
+}
+

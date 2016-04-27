@@ -1,0 +1,59 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style media="screen" type="text/css">
+
+#square {
+	background: blue;
+	height: 100px;
+	width: 100px;	
+}
+
+#circle {
+	background: pink;
+	height: 100px;
+	border-radius: 50%;
+	width: 100px;	
+}
+
+#triangle {
+	width: 0;
+	border-left: 100px solid transparent;
+	border-bottom: 100px solid purple;
+	border-right: 100px solid transparent;
+}
+
+#triangle2 {
+	background: green;
+	width: 100px;
+	height: 100px;
+	transform:skewY(20deg);	
+	-moz-transform:skewY(20deg);	
+	-ms-transform:skewY(20deg);	
+}
+
+#pacman {
+
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid red;
+  border-left: 60px solid red;
+  border-bottom: 60px solid red;
+  border-radius: 60px;
+}
+
+</style>
+</head>
+
+    <body>
+    
+    <div id="square"></div>
+    <div id="circle"></div>
+    <div id="triangle"></div>
+    <div id="triangle2"></div>
+    <div id="pacman"></div>
+    </body>
+</html>

@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Functions</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link type="text/css" href="css/styles.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="local.js"></script>
+
+    </head>
+    
+    <body>
+		<header id="hd">
+        	<div class="container">
+            	<h1>Welcome to jQuery!!! </h1>
+                <ul id="main-nav">
+                    <li><a href="#addclass">.addClass</a></li>
+                    <li><a href="#after">.after</a></li>
+                    <li><a href="#append">.append</a></li>
+                    <li><a href="#attr">.attr</a></li>
+                    <li><a href="#before">.before</a></li>
+                    <li><a href="#htmllink">.html</a></li>
+                    <li><a href="#textlink">.text</a></li>
+                    <li><a href="#val">.val</a></li>
+                    <li><a href="#hide">.hide/.show</a></li>
+                    <li><a href="#toggle">.toggle</a></li>
+                    <li><a href="#slideDown">.slideDown</a></li>
+                    <li><a href="#slideToggle">.slideToggle</a></li>
+                    <li><a href="#slideUp">.slideUp</a></li>
+                    <li><a href="#fadeOut">.fadeOut</a></li>
+                    <li><a href="#fadeIn">.fadeIn</a></li>
+                    <li><a href="#focus">.focus</a></li>
+                    <li><a href="#data">.data</a></li>
+
+                </ul>
+            </div>
+        </header>
+        <div id="main-content">
+        	<div class="container">
+                <div id="addclass">
+                <!-- .addClass( className )
+                .addClass( function ) -->
+                    <h2> AddClass </h2>
+                    <span class="answer"> AddClass </span>
+                </div>
+                
+                <hr>
+                <div id="after">
+                <!-- .after( content [, content ] )
+                .after( function )
+                .after( function-html ) -->
+                    <h2> After </h2>
+                    <p> What kind of shorts do clouds Wear? </p>
+                    <span class="answer">Answer</span>
+                </div>
+                
+                <hr>
+                
+                <div id="append">
+                    <h2> Append </h2>
+                    <p> Why did the rooster cross the road? </p>
+                    <span class="answer">Answer</span>
+                </div>
+                
+                <hr>
+                
+                <div id="attr">
+                    <h2> Attr </h2>
+                    <img src="images/puppy.JPG" width="300" alt="">
+                    <span class="answer">Make puppy bigger</span>
+                </div>
+                
+                <hr>
+                
+                <div id="before">
+                    <h2> Before </h2>
+                    <p> It's Cheaper, and you get more feet </p>
+                    <span class="answer">Wut???</span>
+                </div>
+                
+                <hr>
+                
+                <div id="htmllink">
+                    <h2> HTML </h2>
+                    <p> <span>Click here</span> to change everything inside of here to something else. </p>
+                    
+                </div>
+                
+                <hr>
+                
+                <div id="textlink">
+                    <h2> Text </h2>
+                    <ul>
+                    	<li> Cats </li>
+                        <li> Dogs </li>
+                        <li> Dolphins </li>
+                    </ul>
+                    <p>What do all of these things have in common? </p>
+                    <span class="answer"> Answer </span>
+                </div>
+                
+                <hr>
+                
+                <div id="val">
+                    <h2> Val </h2>
+                    
+                    <select id="ice-cream-flavors" multiple="ice-cream-flavors">
+                    	<option> Rocky Road </option>
+                        <option> Vanilla</option>
+                        <option> Orange Creamsicle </option>
+                     </select>
+                     <p class="value-display"></p>
+                </div>
+                
+                <hr>
+                
+                <div id="hide">
+                    <h2> Hide / Show </h2>
+                    <img src="https://s-media-cache-ak0.pinimg.com/736x/f0/41/5a/f0415a5836e647da34006cf49f663b1b.jpg" alt=""/>
+                    <div class="btns">
+                    	<button class="hide">Hide</button>
+                    	<button class="show">Show</button>
+                    </div>
+                </div>
+                
+                <hr >
+                
+                <div id="toggle">
+                    <h2> Toggle</h2>
+                    <img src="https://s-media-cache-ak0.pinimg.com/736x/50/02/18/5002181c1ff69ed72ba36d090a4dedf3.jpg" alt=""/>
+                    <img src="http://weknowmemes.com/wp-content/uploads/2012/06/we-found-dove-in-a-soapless-place.jpg" alt=""/>
+                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-06/23/7/enhanced/webdr05/enhanced-32235-1403523909-9.jpg" alt=""/>
+                    <div class="btns">
+                    	<button class="click">Click Me</button>
+                    </div>
+                </div>
+
+                <hr >
+
+                <div id="slideDown">
+                <!-- .slideDown( [duration ] [, complete ] ) 
+                .slideDown( [duration ] [, easing ] [, complete ] )-->
+                    <h2> Slide Down</h2>
+                    <button class="click-me"> Click me! </button>
+                    <div> You </div>
+                    <div> made me </div>
+                    <div> slide down </div>
+
+                </div>
+
+                <hr >
+
+                <div id="slideToggle">
+                <!-- .slideToggle( [duration ] [, complete ] )
+                .slideToggle( options ) duration, easing, queue, specialEasing
+                .slideToggle( [duration ] [, easing ] [, complete ] )-->
+                    <h2> Slide Toggle</h2>
+                    <button class="click-me"> Click me! </button>
+                     <div class="one"></div>
+                     <div></div>
+                     <div class="one"></div>
+                     <div></div>
+                     <div class="one"></div>
+                     <div></div>
+
+                </div>
+
+                <hr >
+
+                <div id="slideUp">
+                <!-- .slideDown( [duration ] [, complete ] ) -->
+                    <h2> Slide Up</h2>
+                    <button class="click-me"> Click me! </button>
+                    <div>Click </div>
+                    <div>to</div>
+                    <div>hide us!</div>
+
+                </div>
+
+                <hr >
+
+                <div id="fadeOut">
+                <!-- .slideDown( [duration ] [, complete ] ) -->
+                    <h2> Fade Out  </h2>
+                    <button class="click-me"> Click me! </button>
+                    <p> I just don't want to be here anymore </p>
+                </div>
+
+                <hr >
+
+                <div id="fadeIn">
+                <!-- .fadeIn( [duration ] [, complete ] )
+                .fadeIn( [duration ] [, easing ] [, complete ] ) -->
+                    <h2> Fade In</h2>
+                    <button class="click-me"> Click me! </button>
+                    <p> You found me! </p>
+                </div>
+
+                <hr >
+
+                <div id="focus">
+                <!-- .focus( handler )
+                .focus( [eventData ], handler ) -->
+                    <h2> Focus</h2>
+                    <form>
+                        <p><input type="text" ><span> focus has fired </span></p>
+                        <p><input type="text"><span> focus has fired </span></p>
+                        
+                    </form>
+                </div>
+
+                <hr >
+
+                <div id="data">
+                <!-- .data( key, value )
+                .data( obj ) -->
+                    <h2> Data </h2>
+                    <p> I am attaching arbitrary data to this p tag <span></span></p>
+                </div>
+
+                
+            </div><!-- #container -->
+        </div>
+	
+    </body>
+</html>

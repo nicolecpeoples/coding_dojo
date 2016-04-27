@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hover in and Out</title>
+        <style>
+        	body {
+        		text-align:  center;
+        		background: #e3bab4;
+        	}
+           	img {
+           		display: inline-block;
+           		margin: 10px;
+           	}
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script>
+         	$(document).ready(function(){
+
+         		function hideInAndOut() {
+					var src;
+
+					$('img').hover(
+						function(){
+							//save current src information
+							src = $(this).attr('src'); 
+							//change src to alt-src
+							$(this).attr('src', $(this).data('alt-src'));
+							//alt src needs to be changed to src
+							$(this).data('alt-src', src);
+
+						},
+						function(){
+							src = $(this).attr('src'); 
+							$(this).attr('src', $(this).data('alt-src'));
+							$(this).data('alt-src', src);
+						});
+
+         		};
+         		
+
+         		hideInAndOut();
+         	});
+
+        </script>
+    </head>
+    <body>
+    	<h1> Hovers In and Out </h1>
+
+    	<div class="block1">
+    		<img src="images/1a.jpg" alt="" data-alt-src="images/1b.jpg" />
+    		<img src="images/2a.jpg" alt="" data-alt-src="images/2b.jpg" />
+    		<img src="images/3a.jpg" alt="" data-alt-src="images/3b.jpg" />
+    		<img src="images/4a.jpg" alt="" data-alt-src="images/4b.jpg" />
+    	</div>
+
+    	<div class="block2">
+    		<img src="images/5a.jpg" alt="" data-alt-src="images/5b.jpg" />
+    		<img src="images/6a.jpg" alt="" data-alt-src="images/6b.jpg" />
+    		<img src="images/7a.jpg" alt="" data-alt-src="images/7b.jpg" />
+    		<img src="images/8a.jpg" alt="" data-alt-src="images/8b.jpg" />
+    	</div>
+    </body>
+</html>

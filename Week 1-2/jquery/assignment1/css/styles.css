@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*****Type ******/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  background: url(../images/content.jpg);
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 20px;
+}
+a {
+  color: #fff;
+}
+a:hover,
+a.active {
+  color: #0e53ef;
+}
+hr {
+  background: #3d3d40;
+  height: 2px;
+  margin: 10px auto;
+}
+#hd {
+  background: #4c58f2;
+  padding: 20px 0 0 0;
+}
+#main-nav {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+#main-nav li {
+  list-style: none;
+  display: inline-block;
+}
+#main-nav li a {
+  text-decoration: none;
+  font-size: .95em;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 10px;
+}
+#main-content {
+  text-align: center;
+  margin: 50px 0;
+}
+span.answer {
+  background: #963ed9;
+  width: 150px;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  margin: 12px auto;
+  cursor: pointer;
+}
+.btns button {
+  display: inline-block;
+  width: 100px;
+  padding: 10px 0;
+  margin: 10px 3px;
+}
+span.expand {
+  width: 250px;
+  background: #4c58f2;
+}
+#htmllink span {
+  color: blue;
+  font-weight: 700;
+}
+#textlink ul li {
+  list-style-position: inside;
+}
+#toggle img {
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
+}
+button.click-me {
+  display: block;
+  margin: 0 auto;
+  background: purple;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 10px;
+}
+#slideDown div {
+  background: #0e2f7a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 10px;
+  display: inline-block;
+  width: 100px;
+  display: none;
+  margin: 6px auto;
+}
+#slideToggle {
+  overflow: hidden;
+}
+#slideToggle div {
+  height: 75px;
+  width: 75px;
+  float: left;
+  margin: 5px;
+  background: #6e8dd3;
+}
+#slideToggle div.one {
+  background: #c86ed3;
+  display: none;
+}
+#fadeIn p {
+  display: none;
+}
